@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.d-flex {
+    display: flex;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.slide-in {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.slide-in-static {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#slide-in-blue.slide-in-static {
+    background: #01426A;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    top: 0;
+    left: -1%;
+}
+
+#slide-in-orange.slide-in-static {
+    background: #EF6F27;
+    clip-path: polygon(100% 100%, 0 100%, 100% 0);
+    bottom: 0;
+    right: -1%;
+}
+
+
+#slide-in-blue {
+    background: #01426A;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    top: -100vh;
+    left: -100vw;
+    animation-name: slideInBlue;
+}
+
+#slide-in-orange {
+    background: #EF6F27;
+    clip-path: polygon(100% 100%, 0 100%, 100% 0);
+    bottom: -100vh;
+    right: -100vw;
+    animation-name: slideInOrange;
+}
+
+@keyframes slideInBlue {
+    to {
+        top: 0;
+        left: -1%;
+    }
+}
+
+@keyframes slideInOrange {
+    to {
+        bottom: 0;
+        right: -1%;
+    }
+}
+
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInEffect 0.5s forwards;
+    animation-delay: 0.1ms;
+}
+
+@keyframes fadeInEffect {
+    to {
+        opacity: 1;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+button:not(.button-submit) {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+button:not(.button-submit) {
+    font-family: 'Ubuntu', sans-serif;
+}

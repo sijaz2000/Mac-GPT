@@ -1,0 +1,163 @@
+The major requirements below are current starting in Fall 2021. Existing MSCS majors that declared prior to Fall 2021 can continue to follow the old requirements. All new major declarations, except in unusual circumstances, must meet the requirements outlined below.
+
+
+ Computer Science Major   |
+ Computer Science Minor   |
+ Data Science Major   |
+ Data Science Minor   |
+ Mathematics Major   |
+ Mathematics Minor   |
+ Statistics Major   |
+ Statistics Minor
+
+General Distribution Requirement:
+All courses in the department count toward the general distribution requirement in mathematics and natural science except those numbered COMP 154, MATH 212, COMP 325 and COMP 272. COMP 154 and MATH 212 count toward the humanities general distribution requirement. COMP 272 counts toward the social science general distribution.  COMP 325 counts for no general distribution.General Education RequirementsCourses that meet the general education requirements in writing, quantitative thinking, internationalism and US identities and differences will be posted on the Registrar's web page in advance of registration for each semester.Additional information regarding the general distribution requirement and the general education requirements can be found in the graduation requirements section of this catalog.Honors ProgramThe MSCS department participates in the honors program. Eligibility requirements, application procedures and specific project expectations can be found on the department webpage or the Academic Programs and Advising Office.Topics CoursesCOMP 194 , COMP 294 , COMP 394 , COMP 494 , MATH 194, MATH 294, MATH 394, MATH 494, STAT 194, STAT 294, STAT 394, STAT 494 Selected topics in computer science, mathematics, applied mathematics, and statistics. When the course is offered, the topic and prerequisites for that semester will be announced and posted prior to registration. (4 credits)Independent StudyThe MSCS department offers independent study options in the form of tutorials, independent projects, internships, preceptorships and Honors independent projects. For more information contact the department and review the Curriculum section of the catalog.
+------
+Computer Science Major
+Major Requirements:
+Three introductory courses, taken in sequence. Students with prior experience should determine proper placement in this sequence in consultation with program faculty. Students prepared to skip this entire sequence must take a third advanced elective.
+	One of COMP 120 or COMP 123 
+COMP 127 
+COMP 128 
+
+Three supporting math/stat courses: MATH 279, and any two additional math/stat courses, numbered 135 or above, taken at Macalester
+Three core courses: COMP 221, COMP 225 and COMP 240 
+Two advanced elective courses in computer science, numbered 300-499
+A capstone course, which must be taken prior to spring semester of the senior year
+Pass the project component of the capstone course, and pass the capstone presentation requirement
+	Mathematics and statistics courses that support a Computer Science major particularly well include:  STAT 155,  MATH 236,  STAT 253,  MATH 313, MATH 365, MATH 375, and MATH 379.
+	Students who plan to attend graduate school in computer science are encouraged to take COMP 361, more than the minimum number of computer science electives, as well as additional supporting work in related disciplines.
+	Students planning a Computer Science major who enter Macalester without prior experience should take COMP 123 in their first year.
+
+----------
+Computer Science Minor
+Minor Requirements
+Requirements for a minor in computer science are:Any five courses in computer science numbered 120-489. Minor plans including more than one crosslisted course require departmental approval. (Note: Credit can be awarded for only one of the introductory courses COMP 120 or COMP 123.)No more than two courses can count toward any other minor or major.
+
+---------
+Data Science Major
+Major Requirements
+Two courses in Data Science core: STAT 112/COMP 112 and COMP 212/STAT 212
+Two courses in Statistics core: STAT 155 and STAT 253 
+Two courses in Computer Science core: COMP 120 or COMP 123, and COMP 127 
+One course in Math core: MATH 236 
+Three upper-level electives: Any three courses from the following list: COMP 302, COMP 320, COMP 435, COMP 440, COMP 445, COMP 484 MATH 354/STAT 354, MATH 365/COMP 365, MATH 432, MATH 437, MATH 471, MATH 479/COMP 479, STAT 451, STAT 452, STAT 453, STAT 454 
+Capstone: STAT 456 , which must be taken prior to spring semester of the senior year.
+Pass the capstone presenation
+
+----------
+Data Science Minor
+The requirements for the minor are as follows:Two courses in each of the three areas below.Computing
+	*COMP 123 - Core Concepts in Computer Science AND
+	* One of: STAT/COMP 112 Introduction to Data Science  or COMP 127 - Object-Oriented Programming and Abstraction or COMP 128 - Data Structures or COMP 302 - Introduction to Database Management Systems or COMP/MATH 365  -  Computational Linear Algebra  or COMP 440 - Collective Intelligence or COMP 484 - Introduction to Artificial Intelligence, or others as approved by the department.
+Statistics
+	*STAT 155 - Introduction to Statistical Modeling AND
+	*One of: STAT 253 - Statistical Machine Learning or STAT 453 - Survival Analysis or STAT 454 - Bayesian Statistics, or  STAT 456 - Projects in Data Science , or others as approved by the department.
+Domain area expertise
+	* Two courses in a single domain meeting the following criteria: the courses should be focused around a theme (e.g., bioinformatics) and not a broad discipline AND that theme should
+	   one that allows the possibility of data science-related activities, either within the courses themselves or in the student's future career or further education.
+	* Pre-approved domain courses are listed below. Proposals for other areas of domain expertise (supported by two courses) will be approved on a case by case basis by the department.
+No more than two courses can count toward any other major, minor, or concentration.
+Applied Mathematics and Statistics Majors may not also earn a Data Science Minor.Pre-Approved Domain CoursesAstronomy
+PHYS 120 - Astronomical Techniques and
+PHYS 440 - Observational Astronomy
+Bioinformatics
+BIOL 190 - Genetics and COMP 320 - Computational Biology 
+Computational LinguisticsLING 100 Introduction to Linguistics  and
+LING 294  Computational Methods in Linguistics
+Data-Driven Journalism
+MCST 114 - News Reporting and Writing and one of the following:
+MCST 357 - Advanced Journalism: New Media 
+Ecology
+BIOL 170 - Ecology and the Environment
+BIOL 359 - Big Data in Ecology 
+Environmental Science and Policy
+Two of the following:
+ENVI 231 - Environmental Economics and Policy 
+ENVI 133 - Environmental Science 
+ENVI 240 - The Earth's Climate System 
+ENVI 150 Climate and Society 
+ENVI 160 - Dynamic Earth and Global Change 
+Geographic Analytics
+GEOG 225 - Introduction to Geographic Information Systems or GEOG 362 - Remote Sensing of the Environment and one of the following:GEOG 225 - Introduction to Geographic Information Systems 
+GEOG 262 - Metro Analysis
+GEOG 362 - Remote Sensing of the Environment
+GEOG 364 - GIS and Community Partnerships 
+GEOG 365 - Urban GIS
+GEOG 367 - Environmental Geographic Information Systems (GIS)
+GEOG 368 - Health GIS
+GEOG 372 - Advanced Remote Sensing 
+GEOG 378 - Statistical Research Methods in Geography 
+Political Analytics
+POLI 269 - Empirical Research Methods and
+POLI 242 Political Economy of Development 
+Quantitative Economics
+Two of the following:
+ECON 381 - Introduction to Econometrics 
+ECON 457 - Finance 
+ECON 472 - Macroeconomic Modeling Capstone 
+ECON 485 - Empirical Finance 
+Quantitative Public Health
+Two of the following:
+BIOL 402 - Seminar in Virology 
+BIOL 357 - Immunology 
+GEOG 256 - Health Geography 
+STAT 125 - Epidemiology Social Processes and Relations
+SOCI 269 Social Science Inquiry and
+one of the following:
+SOCI 190 Criminal Behavior/Social Control 
+SOCI 283 Economic Sociology
+
+
+----------
+Mathematics Major
+Major RequirementsTwo courses that are introductory to the major (taken in any order): MATH 236, MATH 237 
+Two supporting courses:
+	One course in data visualization and modeling: STAT 112 or  STAT 155 
+One course in computer programming: COMP 120, COMP 123, COMP 127, or COMP 128 
+
+Five Math courses numbered 250 or above, including:
+	At least two cornerstone courses from the following list: MATH 312, MATH 354, MATH 365, MATH 375,  MATH 376,  MATH 377,  MATH 378,  MATH 379 
+At least one 400-level capstone course, which must be taken prior to spring semester of the senior year
+
+Pass the capstone presentation
+
+
+-------------------
+Mathematics Minor
+To obtain a minor in mathematics, you must complete the following:MATH 279, MATH 236, MATH 237 and at least 8 semester credits from Mathematics courses numbered 300-489, except topics courses unless prior departmental approval has been given.
+COMP 123 or an equivalent course.
+No more than two courses can count toward any other minor or major.
+
+-------------------
+Statistics Major
+Major RequirementsFive core courses:
+	MATH 137 or MATH 237 
+STAT 155 
+MATH 236 
+STAT 253 
+STAT 354/MATH 354 
+
+Two upper-level statistics courses from the following list, at least one of which is a 400-level course (which must be taken prior to the spring semester of the senior year): STAT 394, STAT 451, STAT 452, STAT 453, STAT 454, MATH 455/STAT 455, STAT 494 
+One additional upper-level statistics or statistics adjacent course from the following list:
+	Any 300- or 400-level STAT course, MATH 365/COMP 365, MATH 377, MATH 433**, MATH 479/COMP 479 
+
+Two computational courses from the following list: STAT 112/COMP 112, COMP 120, COMP 123, COMP 127, COMP 128, COMP 221, COMP 225, COMP 302, COMP 365, COMP 435, COMP 440 
+Pass the capstone presentation
+**MATH 433 is the future course number of Signal Processing, which has been taught as a topics course. 
+
+----------
+Statistics Minor
+Minor RequirementsTo obtain a minor in statistics, you must complete five (5) courses in total that must include:STAT 155 
+STAT 253, and
+any three courses from the following:  STAT 112, STAT 125, STAT 451, STAT 452,  STAT 453,  STAT 454, STAT 456,  MATH 354,  MATH 455/STAT 455,  COMP 123,  COMP 440,  ECON 381,  GEOG 225,  GEOG 378,  POLI 269,  PSYC 301,  SOCI 269, or another course approved by the Mathematics, Statistics, and Computer Science Chair.
+No more than two courses can count toward any other minor, major, or concentration. At most, one course may come from outside of Mathematics, Statistics, and Computer Science
+
+
+
+
+
+
+
+
+
