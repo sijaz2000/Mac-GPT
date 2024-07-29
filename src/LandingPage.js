@@ -1,6 +1,6 @@
 import * as React from "react";
 import { PrimaryButton } from '@fluentui/react/lib/Button';
-import {getAuth, getRedirectResult, GoogleAuthProvider, signInWithRedirect} from "firebase/auth";
+import {getAuth, GoogleAuthProvider, signInWithPopup} from "firebase/auth";
 import App from './App.js';
 import "./Landing.css"
 
@@ -35,37 +35,35 @@ class LandingPage extends React.Component
         this.setState({ isLoading: true });
         sessionStorage.setItem('isLoading', 'true');
         sessionStorage.setItem('authAttempted', 'true');
-        signInWithRedirect(auth, provider);
+        signInWithPopup(auth, provider)
+            .then((result) => {
+                // User has signed in
+                const user = result.user;
+                localStorage.setItem('userNow', JSON.stringify([user]));
+                this.setState({ userNow: [user], isLoading: false });
+                sessionStorage.removeItem('isLoading');
+                sessionStorage.removeItem('authAttempted');
+            })
+            .catch((error) => {
+                this.setState({ isLoading: false });
+                sessionStorage.removeItem('isLoading');
+                sessionStorage.removeItem('authAttempted');
+                // Handle Errors here.
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                // The email of the user's account used.
+                const email = error.customData ? error.customData.email : "N/A";
+                // The AuthCredential type that was used.
+                const credential = GoogleAuthProvider.credentialFromError(error);
+                console.error("Error during sign-in popup:", errorCode, errorMessage, email, credential);
+            });
     }
 
-    handleAuthentication()
-    {
-        getRedirectResult(auth)
-            .then((result) => {
-                if (result) {
-                    // User has been redirected and signed in
-                    const user = result.user;
-                    this.setState(prevState => ({
-                        userNow: [...prevState.userNow, user]
-                    }));
-                    this.setState({ isLoading: false });
-                    sessionStorage.removeItem('isLoading');
-                    sessionStorage.removeItem('authAttempted');
-                } else {
-                    console.log("No user has signed in via redirect yet");
-                }
-            }).catch((error) => {
-            this.setState({ isLoading: false });
-            sessionStorage.removeItem('isLoading');
-            sessionStorage.removeItem('authAttempted');
-            // Handle Errors here.
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            // The email of the user's account used.
-            const email = error.customData.email;
-            // The AuthCredential type that was used.
-            const credential = GoogleAuthProvider.credentialFromError(error);
-        });
+    handleAuthentication() {
+        const userNow = JSON.parse(localStorage.getItem('userNow'));
+        if (userNow && userNow.length > 0) {
+            this.setState({ userNow: userNow });
+        }
     }
 
     render()
