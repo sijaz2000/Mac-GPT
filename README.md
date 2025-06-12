@@ -3,14 +3,9 @@
 **An OpenAI Assistants API-powered chatbot capable of answering questions related to Macalester College.**
 The chatbot solves a simple problem: No need to go through webpage after webpage to find information regarding a course, a professor, or when the vacation starts!
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/sijaz2000/Mac-GPT/main/src/Resources/macgpt-demo.png?token=GHSAT0AAAAAACVMP7YFTF3AQ544KBJCBWN4ZVHNEGA" alt="front image">
-</div>
+
  
 ## Technologies
-<div align="center">
-  <img src="https://raw.githubusercontent.com/sijaz2000/Mac-GPT/main/src/Resources/MacGPTtech.png?token=GHSAT0AAAAAACVMP7YELQW4F6OF3RBT6ON2ZVHNE2Q" alt="Tech image">
-</div>
 
 
 ### OpenAI Assistants API:
@@ -40,10 +35,6 @@ The chatbot solves a simple problem: No need to go through webpage after webpage
 ## Demo: Course Planning
 
 Mac-GPT is capable of looking at major or minor requirements and advice the user on what courses need to be taken in order to complete a certain major or minor. Moreover, it is capable of giving exact course codes and determining whether it is available in a specific semester or not.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/sijaz2000/Mac-GPT/main/src/Resources/COMP%20Sci%20Major%20Question%20(Test).png?token=GHSAT0AAAAAACVMP7YEE6QR5NI6SGEON7YQZVHNFKQ" alt="Course planning image">
-</div>
 
 
 
