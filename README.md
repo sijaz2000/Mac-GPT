@@ -39,7 +39,7 @@ The chatbot solves a simple problem: No need to go through webpage after webpage
 
 ## Demo: Course Planning
 
-Mac-GPT is capable of looking at major or minor requirements and advice the user on what courses need to be taken in order to complete a certain major or minor. Moreover, it is capable of giving exact course codes and whether it is available in a specific semester or not.
+Mac-GPT is capable of looking at major or minor requirements and advice the user on what courses need to be taken in order to complete a certain major or minor. Moreover, it is capable of giving exact course codes and determining whether it is available in a specific semester or not.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/sijaz2000/Mac-GPT/main/src/Resources/COMP%20Sci%20Major%20Question%20(Test).png?token=GHSAT0AAAAAACVMP7YEE6QR5NI6SGEON7YQZVHNFKQ" alt="Course planning image">
